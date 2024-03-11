@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestRunner" time="153.251" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\priya\Desktop\automation-exercise\automation-exercise/src/main/java/drivers/chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\priya\Desktop\automation-exercise\automation-exercise\target\test-classes;C:\Users\priya\Desktop\automation-exercise\automation-exercise\target\classes;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\priya\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\priya\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\priya\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\priya\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\priya\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\priya\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\priya\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\priya\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\priya\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\priya\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\priya\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\priya\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\priya\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\priya\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\priya\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\priya\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\priya\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\priya\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\priya\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\priya\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\priya\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\priya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\priya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\priya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\priya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\priya\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\priya\AppData\Local\Temp\surefire17772461567552303478\surefirebooter-20240311200002996_3.jar C:\Users\priya\AppData\Local\Temp\surefire17772461567552303478 2024-03-11T20-00-02_776-jvmRun1 surefire-20240311200002996_1tmp surefire_0-20240311200002996_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\priya\Desktop\automation-exercise\automation-exercise\target\test-classes;C:\Users\priya\Desktop\automation-exercise\automation-exercise\target\classes;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-java\4.18.1\selenium-java-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-api\4.18.1\selenium-api-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.18.1\selenium-chrome-driver-4.18.1.jar;C:\Users\priya\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.18.1\selenium-chromium-driver-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-json\4.18.1\selenium-json-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.18.1\selenium-manager-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.18.1\selenium-devtools-v120-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.18.1\selenium-devtools-v121-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.18.1\selenium-devtools-v122-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.18.1\selenium-devtools-v85-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.18.1\selenium-edge-driver-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.18.1\selenium-firefox-driver-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-http\4.18.1\selenium-http-4.18.1.jar;C:\Users\priya\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.18.1\selenium-ie-driver-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.18.1\selenium-remote-driver-4.18.1.jar;C:\Users\priya\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\priya\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\priya\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\priya\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\priya\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\priya\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\priya\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\priya\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-api\1.35.0\opentelemetry-api-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-context\1.35.0\opentelemetry-context-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.35.0\opentelemetry-exporter-logging-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.35.0\opentelemetry-sdk-common-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.35.0\opentelemetry-sdk-extension-autoconfigure-spi-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.35.0\opentelemetry-sdk-extension-autoconfigure-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.35.0-alpha\opentelemetry-api-events-1.35.0-alpha.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.35.0\opentelemetry-sdk-trace-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.35.0-alpha\opentelemetry-extension-incubator-1.35.0-alpha.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.35.0\opentelemetry-sdk-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.35.0\opentelemetry-sdk-metrics-1.35.0.jar;C:\Users\priya\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.35.0\opentelemetry-sdk-logs-1.35.0.jar;C:\Users\priya\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-os\4.18.1\selenium-os-4.18.1.jar;C:\Users\priya\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.18.1\selenium-safari-driver-4.18.1.jar;C:\Users\priya\.m2\repository\org\seleniumhq\selenium\selenium-support\4.18.1\selenium-support-4.18.1.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\priya\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\priya\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\priya\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\priya\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\priya\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\priya\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\priya\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\priya\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\priya\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\priya\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\priya\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\priya\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\priya\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\priya\.m2\repository\io\cucumber\cucumber-html\0.2.7\cucumber-html-0.2.7.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\priya"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Users\priya\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\priya\Desktop\automation-exercise\automation-exercise"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\priya\AppData\Local\Temp\surefire17772461567552303478\surefirebooter-20240311200002996_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+7"/>
+    <property name="user.name" value="priya"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.10+7"/>
+    <property name="localRepository" value="C:\Users\priya\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\priya\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="C:\Users\priya\Desktop\automation-exercise\automation-exercise"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\priya\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/priya/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/priya/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\priya\AppData\Local\Programs\Python\Python310\;C:\Users\priya\AppData\Local\Programs\Python\Python310\Scripts\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Java Classes\Softwares\Installed\JDK\bin;C:\Users\priya\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\priya\AppData\Local\Programs\Python\Python311\;C:\Users\priya\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\priya\AppData\Local\Programs\Python\Python37\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\priya\AppData\Local\Microsoft\WindowsApps;C:\Users\priya\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\priya\AppData\Local\Programs\oh-my-posh\bin;C:\Users\priya\AppData\Local\Programs\oh-my-posh\themes;C:\Software\Cb\CodeBlocks\MinGW;C:\Java Classes\Softwares\Installed\JDK\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.3\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.4\bin;;C:\Users\priya\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.10+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Add a review on a product&quot;, &quot;Add review on product&quot;](1)" classname="TestRunner" time="26.799">
+    <system-out><![CDATA[
+Scenario: Add a review on a product                                              # src/test/resources/features/Add_Review_On_Product.feature:3
+  Given I launch the browser                                                     # stepDefinitions.Register_User_Steps.i_launch_the_browser()
+  When I navigate to url 'http://automationexercise.com'                         # stepDefinitions.Register_User_Steps.i_navigate_to_url(java.lang.String)
+  And I click on the 'Products' button                                           # stepDefinitions.Register_User_Steps.i_click_on_the_button(java.lang.String)
+  Then I should be on the ALL PRODUCTS page                                      # stepDefinitions.Add_Review_On_Products_Steps.i_should_be_on_the_all_products_page()
+  When I click on view product link for product '1'                              # stepDefinitions.Add_Review_On_Products_Steps.i_click_on_view_product_link_for_product_on_the_page(java.lang.String)
+  Then I verify that 'Write Your Review' is visible                              # stepDefinitions.Register_User_Steps.i_verify_that_is_visible(java.lang.String)
+  And I enter my name, email, and review                                         # stepDefinitions.Add_Review_On_Products_Steps.i_enter_my_name_email_and_review()
+  When I click the 'Submit' button                                               # stepDefinitions.Register_User_Steps.i_click_the_button(java.lang.String)
+  Then I verify that the success message 'Thank you for your review.' is visible # stepDefinitions.Contact_Us_Steps.i_verify_that_the_success_message_is_visible(java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Submitting Contact Us Form&quot;, &quot;Contact Us Form&quot;](2)" classname="TestRunner" time="10.051">
+    <system-out><![CDATA[
+Scenario: Submitting Contact Us Form                                                                          # src/test/resources/features/Contact_Us.feature:3
+  Given I launch the browser                                                                                  # stepDefinitions.Register_User_Steps.i_launch_the_browser()
+  When I navigate to url 'http://automationexercise.com'                                                      # stepDefinitions.Register_User_Steps.i_navigate_to_url(java.lang.String)
+  Then I verify that the home page is visible successfully                                                    # stepDefinitions.Register_User_Steps.i_verify_that_the_home_page_is_visible_successfully()
+  When I click on the 'Contact us' button                                                                     # stepDefinitions.Register_User_Steps.i_click_on_the_button(java.lang.String)
+  Then I verify that 'Get In Touch' is visible                                                                # stepDefinitions.Register_User_Steps.i_verify_that_is_visible(java.lang.String)
+  When I enter name, email, subject, and message                                                              # stepDefinitions.Contact_Us_Steps.i_enter_name_email_subject_and_message()
+  And I upload a file                                                                                         # stepDefinitions.Contact_Us_Steps.i_upload_a_file()
+  And I click on 'submit-button'                                                                              # stepDefinitions.Contact_Us_Steps.i_click_on(java.lang.String)
+  And I click on OK from the alert                                                                            # stepDefinitions.Contact_Us_Steps.i_click_on_OK_from_the_alert()
+  Then I verify that the success message 'Success! Your details have been submitted successfully.' is visible # stepDefinitions.Contact_Us_Steps.i_verify_that_the_success_message_is_visible(java.lang.String)
+  When I click on the 'Home' button                                                                           # stepDefinitions.Register_User_Steps.i_click_on_the_button(java.lang.String)
+  Then I verify that the home page is visible successfully                                                    # stepDefinitions.Register_User_Steps.i_verify_that_the_home_page_is_visible_successfully()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login User with incorrect email and password&quot;, &quot;User Login&quot;](3)" classname="TestRunner" time="10.848">
+    <system-out><![CDATA[
+Scenario: Login User with incorrect email and password                                   # src/test/resources/features/Login_Fail.feature:3
+  Given I launch the browser                                                             # stepDefinitions.Register_User_Steps.i_launch_the_browser()
+  When I navigate to url 'http://automationexercise.com'                                 # stepDefinitions.Register_User_Steps.i_navigate_to_url(java.lang.String)
+  Then I verify that the home page is visible successfully                               # stepDefinitions.Register_User_Steps.i_verify_that_the_home_page_is_visible_successfully()
+  And I click on the 'Signup / Login' button                                             # stepDefinitions.Register_User_Steps.i_click_on_the_button(java.lang.String)
+  Then I verify that 'Login to your account' is visible                                  # stepDefinitions.Register_User_Steps.i_verify_that_is_visible(java.lang.String)
+  When I enter incorrect email address and password                                      # stepDefinitions.Login_Fail_Steps.i_enter_incorrect_email_address_and_password()
+  And I click the 'Login' button                                                         # stepDefinitions.Register_User_Steps.i_click_the_button(java.lang.String)
+  Then I verify that the error message 'Your email or password is incorrect!' is visible # stepDefinitions.Login_Fail_Steps.i_verify_that_the_error_message_is_visible(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Login User with correct email and password&quot;, &quot;Login User&quot;](4)" classname="TestRunner" time="26.088">
+    <system-out><![CDATA[
+Scenario: Login User with correct email and password       # src/test/resources/features/Login_Success.feature:3
+  Given I launch the browser                               # stepDefinitions.Register_User_Steps.i_launch_the_browser()
+  When I navigate to url 'http://automationexercise.com'   # stepDefinitions.Register_User_Steps.i_navigate_to_url(java.lang.String)
+  Then I verify that the home page is visible successfully # stepDefinitions.Register_User_Steps.i_verify_that_the_home_page_is_visible_successfully()
+  When I click on the 'Signup / Login' button              # stepDefinitions.Register_User_Steps.i_click_on_the_button(java.lang.String)
+  Then I verify that 'Login to your account' is visible    # stepDefinitions.Register_User_Steps.i_verify_that_is_visible(java.lang.String)
+  When I enter correct email address and password          # stepDefinitions.Login_Success_Steps.i_enter_correct_email_address_and_password()
+  And I click the 'Login' button                           # stepDefinitions.Register_User_Steps.i_click_the_button(java.lang.String)
+  Then I verify that 'Logged in as' is visible             # stepDefinitions.Register_User_Steps.i_verify_that_is_visible(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Successful logout of user&quot;, &quot;Logout User&quot;](5)" classname="TestRunner" time="33.153">
+    <system-out><![CDATA[
+Scenario: Successful logout of user                          # src/test/resources/features/Logout_User.feature:3
+  Given I launch the browser                                 # stepDefinitions.Register_User_Steps.i_launch_the_browser()
+  When I navigate to url 'http://automationexercise.com'     # stepDefinitions.Register_User_Steps.i_navigate_to_url(java.lang.String)
+  Then I verify that the home page is visible successfully   # stepDefinitions.Register_User_Steps.i_verify_that_the_home_page_is_visible_successfully()
+  When I click on the 'Signup / Login' button                # stepDefinitions.Register_User_Steps.i_click_on_the_button(java.lang.String)
+  Then I verify that 'Login to your account' is visible      # stepDefinitions.Register_User_Steps.i_verify_that_is_visible(java.lang.String)
+  When I enter correct email address and password            # stepDefinitions.Login_Success_Steps.i_enter_correct_email_address_and_password()
+  And I click the 'Login' button                             # stepDefinitions.Register_User_Steps.i_click_the_button(java.lang.String)
+  Then I verify that 'Logged in as' is visible               # stepDefinitions.Register_User_Steps.i_verify_that_is_visible(java.lang.String)
+  When I click on the 'Logout' button                        # stepDefinitions.Register_User_Steps.i_click_on_the_button(java.lang.String)
+  Then I verify that the user is navigated to the login page # stepDefinitions.Logout_User_Steps.i_verify_that_the_user_is_navigated_to_the_login_page()
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Register a new user&quot;, &quot;User Registration&quot;](6)" classname="TestRunner" time="25.359">
+    <system-out><![CDATA[
+Scenario: Register a new user                                                                                                           # src/test/resources/features/Register_User.feature:3
+  Given I launch the browser                                                                                                            # stepDefinitions.Register_User_Steps.i_launch_the_browser()
+  When I navigate to url 'http://automationexercise.com'                                                                                # stepDefinitions.Register_User_Steps.i_navigate_to_url(java.lang.String)
+  Then I verify that the home page is visible successfully                                                                              # stepDefinitions.Register_User_Steps.i_verify_that_the_home_page_is_visible_successfully()
+  And I click on the 'Signup / Login' button                                                                                            # stepDefinitions.Register_User_Steps.i_click_on_the_button(java.lang.String)
+  And I verify that 'New User Signup!' is visible                                                                                       # stepDefinitions.Register_User_Steps.i_verify_that_is_visible(java.lang.String)
+  And I enter the name and email address                                                                                                # stepDefinitions.Register_User_Steps.i_enter_the_name_and_email_address()
+  And I click the 'Signup' button                                                                                                       # stepDefinitions.Register_User_Steps.i_click_the_button(java.lang.String)
+  And I verify that 'Enter Account Information' is visible                                                                              # stepDefinitions.Register_User_Steps.i_verify_that_is_visible(java.lang.String)
+  And I fill in the details: Title, Password, Date of birth                                                                             # stepDefinitions.Register_User_Steps.i_fill_in_the_details_title_password_date_of_birth()
+  And I select the checkbox 'Sign up for our newsletter!'                                                                               # stepDefinitions.Register_User_Steps.i_select_the_checkbox(java.lang.String)
+  And I select the checkbox 'Receive special offers from our partners!'                                                                 # stepDefinitions.Register_User_Steps.i_select_the_checkbox(java.lang.String)
+  And I fill in the additional details: First name, Last name, Company, Address, Address2, Country, State, City, Zipcode, Mobile Number # stepDefinitions.Register_User_Steps.i_fill_in_the_additional_details_first_name_last_name_company_address_address2_country_state_city_zipcode_mobile_number()
+  And I click the 'Create Account' button                                                                                               # stepDefinitions.Register_User_Steps.i_click_the_button(java.lang.String)
+  Then I verify that 'Account Created!' is visible                                                                                      # stepDefinitions.Register_User_Steps.i_verify_that_is_visible(java.lang.String)
+  And I click on the 'Continue' button                                                                                                  # stepDefinitions.Register_User_Steps.i_click_on_the_button(java.lang.String)
+  And I verify that 'Logged in as' is visible                                                                                           # stepDefinitions.Register_User_Steps.i_verify_that_is_visible(java.lang.String)
+  And I click on the 'Delete Account' button                                                                                            # stepDefinitions.Register_User_Steps.i_click_on_the_button(java.lang.String)
+  Then I verify that 'Account Deleted!' is visible                                                                                      # stepDefinitions.Register_User_Steps.i_verify_that_is_visible(java.lang.String)
+  And I click on the 'Continue' button                                                                                                  # stepDefinitions.Register_User_Steps.i_click_on_the_button(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Registering a user with an existing email address&quot;, &quot;Register User with existing email&quot;](7)" classname="TestRunner" time="11.191">
+    <system-out><![CDATA[
+Scenario: Registering a user with an existing email address                      # src/test/resources/features/Register_User_With_Existing_Email.feature:3
+  Given I launch the browser                                                     # stepDefinitions.Register_User_Steps.i_launch_the_browser()
+  When I navigate to url 'http://automationexercise.com'                         # stepDefinitions.Register_User_Steps.i_navigate_to_url(java.lang.String)
+  Then I verify that the home page is visible successfully                       # stepDefinitions.Register_User_Steps.i_verify_that_the_home_page_is_visible_successfully()
+  When I click on the 'Signup / Login' button                                    # stepDefinitions.Register_User_Steps.i_click_on_the_button(java.lang.String)
+  Then I verify that 'New User Signup!' is visible                               # stepDefinitions.Register_User_Steps.i_verify_that_is_visible(java.lang.String)
+  When I enter a name and an already registered email address                    # stepDefinitions.Register_User_With_Existing_Email_Steps.i_enter_a_name_and_an_already_registered_email_address()
+  And I click the 'Signup' button                                                # stepDefinitions.Register_User_Steps.i_click_the_button(java.lang.String)
+  Then I verify that the error message 'Email Address already exist!' is visible # stepDefinitions.Login_Fail_Steps.i_verify_that_the_error_message_is_visible(java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Navigate to Test Cases Page&quot;, &quot;Verify Test Cases Page&quot;](8)" classname="TestRunner" time="8.576">
+    <system-out><![CDATA[
+Scenario: Navigate to Test Cases Page                                          # src/test/resources/features/Test_Cases.feature:3
+  Given I launch the browser                                                   # stepDefinitions.Register_User_Steps.i_launch_the_browser()
+  When I navigate to url 'http://automationexercise.com'                       # stepDefinitions.Register_User_Steps.i_navigate_to_url(java.lang.String)
+  Then I verify that the home page is visible successfully                     # stepDefinitions.Register_User_Steps.i_verify_that_the_home_page_is_visible_successfully()
+  When I click on the 'Test Cases' button                                      # stepDefinitions.Register_User_Steps.i_click_on_the_button(java.lang.String)
+  Then I verify that the user is navigated to the test cases page successfully # stepDefinitions.Test_Cases_Steps.i_verify_that_the_user_is_navigated_to_the_test_cases_page_successfully()
+]]></system-out>
+  </testcase>
+</testsuite>
